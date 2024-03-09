@@ -186,7 +186,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z"
+                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
                 />
               </svg> </span
             >Education
@@ -558,25 +558,41 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
               :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
               class="w-full px-4 md:w-1/2"
             >
-            <div class="relative mb-4">
-              <a
-                class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
-              >
-                <h1 class="tracking-wider text-white">Figma Mockup</h1>
-                <p class="mx-auto text-[#AFAFAF]">
-                  Figma mockup PSD editable
-                </p>
-              </a>
-              <a href="#" class="relative">
-                <div class="overflow-hidden">
-                  <img
-                    src="./img/portfolio-1.png"
-                    alt="portfolio"
-                    class="w-full"
-                  />
-                </div>
-              </a>
-            </div>
+              <div class="relative mb-4">
+                <a
+                  class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
+                >
+                  <h1 class="tracking-wider text-white">Figma Mockup</h1>
+                  <p class="mx-auto text-[#AFAFAF]">
+                    Figma mockup PSD editable
+                  </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <a href="#" class="relative">
+                  <div class="overflow-hidden">
+                    <img
+                      src="./img/portfolio-1.png"
+                      alt="portfolio"
+                      class="w-full"
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
             <div
               :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
@@ -590,6 +606,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -614,6 +646,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -638,6 +686,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -649,7 +713,7 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   </div>
                 </a>
               </div>
-              <div class="relative ">
+              <div class="relative">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -657,6 +721,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -681,6 +761,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -705,6 +801,22 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
                   <p class="mx-auto text-[#AFAFAF]">
                     Figma mockup PSD editable
                   </p>
+                  <span class="absolute top-2 right-2 cursor-pointer"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      />
+                    </svg>
+                  </span>
                 </a>
                 <a href="#" class="relative">
                   <div class="overflow-hidden">
@@ -722,160 +834,201 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
       </div>
       <!-- blog section -->
       <div class="max-w-xl mx-auto p-4">
-        <section class="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
-          <div class="container p-6 mx-auto space-y-8">
-            <div class="space-y-2 text-center">
-              <h2 class="text-3xl font-bold">Partem reprimique an pro</h2>
-              <p class="font-serif text-sm dark:text-gray-400">
-                Qualisque erroribus usu at, duo te agam soluta mucius.
-              </p>
+        <h2 class="text-white font-bold text-5xl mb-4">Blog</h2>
+        <div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2">
+          <article>
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-52"
+                src="./img/blog.1.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block ml-1"
+                /></span>
+              </div>
             </div>
-            <div
-              class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4"
-            >
-              <article class="flex flex-col dark:bg-gray-900">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  aria-label="Te nulla oportere reprimique his dolorum"
-                >
-                  <img
+          </article>
+          <article>
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-40"
+                src="./img/blog.2.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
                     alt=""
-                    class="object-cover w-full h-52 dark:bg-gray-500"
-                    src="https://source.unsplash.com/200x200/?fashion?1"
-                  />
-                </a>
-                <div class="flex flex-col flex-1 p-6">
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    aria-label="Te nulla oportere reprimique his dolorum"
-                  ></a>
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    class="text-xs tracki uppercase hover:underline dark:text-violet-400"
-                    >Convenire</a
-                  >
-                  <h3 class="flex-1 py-2 text-lg font-semibold leadi">
-                    Te nulla oportere reprimique his dolorum
-                  </h3>
-                  <div
-                    class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400"
-                  >
-                    <span>June 1, 2020</span>
-                    <span>2.1K views</span>
-                  </div>
-                </div>
-              </article>
-              <article class="flex flex-col dark:bg-gray-900">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  aria-label="Te nulla oportere reprimique his dolorum"
-                >
-                  <img
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
                     alt=""
-                    class="object-cover w-full h-52 dark:bg-gray-500"
-                    src="https://source.unsplash.com/200x200/?fashion?2"
-                  />
-                </a>
-                <div class="flex flex-col flex-1 p-6">
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    aria-label="Te nulla oportere reprimique his dolorum"
-                  ></a>
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    class="text-xs tracki uppercase hover:underline dark:text-violet-400"
-                    >Convenire</a
-                  >
-                  <h3 class="flex-1 py-2 text-lg font-semibold leadi">
-                    Te nulla oportere reprimique his dolorum
-                  </h3>
-                  <div
-                    class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400"
-                  >
-                    <span>June 2, 2020</span>
-                    <span>2.2K views</span>
-                  </div>
-                </div>
-              </article>
-              <article class="flex flex-col dark:bg-gray-900">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  aria-label="Te nulla oportere reprimique his dolorum"
-                >
-                  <img
-                    alt=""
-                    class="object-cover w-full h-52 dark:bg-gray-500"
-                    src="https://source.unsplash.com/200x200/?fashion?3"
-                  />
-                </a>
-                <div class="flex flex-col flex-1 p-6">
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    aria-label="Te nulla oportere reprimique his dolorum"
-                  ></a>
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    class="text-xs tracki uppercase hover:underline dark:text-violet-400"
-                    >Convenire</a
-                  >
-                  <h3 class="flex-1 py-2 text-lg font-semibold leadi">
-                    Te nulla oportere reprimique his dolorum
-                  </h3>
-                  <div
-                    class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400"
-                  >
-                    <span>June 3, 2020</span>
-                    <span>2.3K views</span>
-                  </div>
-                </div>
-              </article>
-              <article class="flex flex-col dark:bg-gray-900">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  aria-label="Te nulla oportere reprimique his dolorum"
-                >
-                  <img
-                    alt=""
-                    class="object-cover w-full h-52 dark:bg-gray-500"
-                    src="https://source.unsplash.com/200x200/?fashion?4"
-                  />
-                </a>
-                <div class="flex flex-col flex-1 p-6">
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    aria-label="Te nulla oportere reprimique his dolorum"
-                  ></a>
-                  <a
-                    rel="noopener noreferrer"
-                    href="#"
-                    class="text-xs tracki uppercase hover:underline dark:text-violet-400"
-                    >Convenire</a
-                  >
-                  <h3 class="flex-1 py-2 text-lg font-semibold leadi">
-                    Te nulla oportere reprimique his dolorum
-                  </h3>
-                  <div
-                    class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-400"
-                  >
-                    <span>June 4, 2020</span>
-                    <span>2.4K views</span>
-                  </div>
-                </div>
-              </article>
+                    class="inline-block ml-1"
+                /></span>
+              </div>
             </div>
-          </div>
-        </section>
+          </article>
+          <article >
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-52"
+                src="./img/blog.3.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block ml-1"
+                /></span>
+              </div>
+            </div>
+          </article>
+          <article class="-mt-10">
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-48"
+                src="./img/blog.4.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block ml-1"
+                /></span>
+              </div>
+            </div>
+          </article>
+          <article >
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-52"
+                src="./img/blog.5.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block ml-1"
+                /></span>
+              </div>
+            </div>
+          </article>
+          <article class="-mt-12">
+            <a href="#">
+              <img
+                alt=""
+                class="object-cover w-full h-48"
+                src="./img/blog.6.png"
+              />
+            </a>
+
+            <div class="flex flex-col flex-1 p-6 bg-black">
+              <span class="text-[#747474]">Photography | 28 Apr 2022</span>
+
+              <h3 class="flex-1 py-2 font-semibold text-white">
+                The artist vocation is to send light into the human heart.
+              </h3>
+              <div class="pt-3 text-xs">
+                <p class="text-[#979797]">
+                  Lorem Ipsum is simply dummy text the printing typesetting
+                  industry. Lorem Ipsum has been...
+                </p>
+                <span class="text-white"
+                  ><img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block mr-1" />Posted By Daryl Smith<img
+                    src="./img/horizontal.svg"
+                    alt=""
+                    class="inline-block ml-1"
+                /></span>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
       <!-- pricing section -->
       <div class="max-w-xl mx-auto p-4">
