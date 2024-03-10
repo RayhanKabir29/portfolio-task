@@ -491,12 +491,12 @@
       <div class="max-w-xl mx-auto p-4">
         <section
           x-data="
-{
-showCards: 'all',
-activeClasses: 'bg-primary text-orange-400',
-inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
-}
-"
+          {
+          showCards: 'all',
+          activeClasses: 'bg-primary text-orange-400',
+          inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
+          }
+          "
           class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
         >
           <div class="-mx-4 flex">
@@ -1032,39 +1032,135 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
       </div>
       <!-- pricing section -->
       <div class="max-w-xl mx-auto p-4">
-        <div class="grid md:grid-cols-2 gap-6 text-zinc-800 mt-10">
-          <div
-            class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg max-w-sm"
-          >
-            <div>
-              <h2 class="font-extrabold text-3xl text-center mb-2">Starter</h2>
-              <p class="opacity-60 text-center">
-                For the individual and small teams
+        <div class="grid md:grid-cols-2 gap-6 mt-10">
+          <div class="bg-black max-w-sm">
+            <div
+              class="mt-8 h-10 w-20 bg-gradient-to-r from-[#F5BD4D4D] to-[#F892224D] rounded-r-full flex justify-center items-center"
+            >
+              <p class="text-white">Intro</p>
+            </div>
+
+            <div class="p-5">
+              <p class="font-extrabold text-4xl text-white">
+                $29 <span class="text-sm opacity-60 text-white"> /month</span>
               </p>
-              <div class="my-8">
-                <p class="font-extrabold text-4xl">
-                  $29 <span class="text-sm opacity-60"> /month</span>
-                </p>
+              <div class="text-sm mt-4 facilities text-white bg-[#121414] p-4">
+                <ul>
+                  <li>Interface Design</li>
+                  <li>Front-end Code</li>
+                  <li>Back-end Development</li>
+                  <li class="line-through text-[#979797]">
+                    Search Engine Optimization
+                  </li>
+                  <li class="line-through text-[#979797]">Awesome Support</li>
+                  <li class="line-through text-[#979797]">Responsive site</li>
+                  <li class="line-through text-[#979797]">Easy in use</li>
+                  <li class="line-through text-[#979797]">Useful site</li>
+                  <li class="line-through text-[#979797]">Speedy web</li>
+                </ul>
+              </div>
+              <div class="my-6">
+                <button
+                  class="text-white px-4 py-2 bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:bg-violet-100 rounded-lg"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
-          <div
-            class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg max-w-sm"
-          >
-            <div>
-              <h2 class="font-extrabold text-3xl text-center mb-2">Starter</h2>
-              <p class="opacity-60 text-center">
-                For the individual and small teams
+          <div class="bg-black max-w-sm">
+            <div
+              class="mt-8 h-10 w-20 bg-gradient-to-r from-[#F5BD4D4D] to-[#F892224D] rounded-r-full flex justify-center items-center"
+            >
+              <p class="text-white">Base</p>
+            </div>
+
+            <div class="p-5">
+              <p class="font-extrabold text-4xl text-white">
+                $49 <span class="text-sm opacity-60 text-white"> /month</span>
               </p>
-              <div class="flex flex-col my-8">
-                <p class="font-extrabold text-4xl">$29</p>
-                <p class="text-sm opacity-60">/month</p>
+              <div class="text-sm mt-4 facilities text-white bg-[#121414] p-4">
+                <ul>
+                  <li>Interface Design</li>
+                  <li>Front-end Code</li>
+                  <li>Back-end Development</li>
+                  <li>Search Engine Optimization</li>
+                  <li class="line-through text-[#979797]">Awesome Support</li>
+                  <li>Responsive site</li>
+                  <li class="line-through text-[#979797]">Easy in use</li>
+                  <li class="line-through text-[#979797]">Useful site</li>
+                  <li class="line-through text-[#979797]">Speedy web</li>
+                </ul>
+              </div>
+              <div class="my-6">
+                <button
+                  class="text-white px-4 py-2 bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:bg-violet-100 rounded-lg"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
-            <div class="flex flex-col gap-1">
-              <div class="flex justify-center mt-8">
+          </div>
+          <div class="bg-black max-w-sm">
+            <div
+              class="mt-8 h-10 w-20 bg-gradient-to-r from-[#F5BD4D4D] to-[#F892224D] rounded-r-full flex justify-center items-center"
+            >
+              <p class="text-white">Popular</p>
+            </div>
+
+            <div class="p-5">
+              <p class="font-extrabold text-4xl text-white">
+                $99 <span class="text-sm opacity-60 text-white"> /month</span>
+              </p>
+              <div class="text-sm mt-4 facilities text-white bg-[#121414] p-4">
+                <ul>
+                  <li>Interface Design</li>
+                  <li>Front-end Code</li>
+                  <li>Back-end Development</li>
+                  <li>Search Engine Optimization</li>
+                  <li>Awesome Support</li>
+                  <li>Responsive site</li>
+                  <li class="line-through text-[#979797]">Easy in use</li>
+                  <li class="line-through text-[#979797]">Useful site</li>
+                  <li class="line-through text-[#979797]">Speedy web</li>
+                </ul>
+              </div>
+              <div class="my-6">
                 <button
-                  class="px-4 py-2 border-violet-400 border-4 hover:bg-violet-100 rounded-xl"
+                  class="text-white px-4 py-2 bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:bg-violet-100 rounded-lg"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="bg-black max-w-sm">
+            <div
+              class="mt-8 h-10 w-24 bg-gradient-to-r from-[#F5BD4D4D] to-[#F892224D] rounded-r-full flex justify-center items-center"
+            >
+              <p class="text-white">Enterprise</p>
+            </div>
+
+            <div class="p-5">
+              <p class="font-extrabold text-4xl text-white">
+                $199 <span class="text-sm opacity-60 text-white"> /month</span>
+              </p>
+              <div class="text-sm mt-4 facilities text-white bg-[#121414] p-4">
+                <ul>
+                  <li>Interface Design</li>
+                  <li>Front-end Code</li>
+                  <li>Back-end Development</li>
+                  <li>Search Engine Optimization</li>
+                  <li class="line-through text-[#979797]">Awesome Support</li>
+                  <li>Responsive site</li>
+                  <li class="line-through text-[#979797]">Easy in use</li>
+                  <li class="line-through text-[#979797]">Useful site</li>
+                  <li class="line-through text-[#979797]">Speedy web</li>
+                </ul>
+              </div>
+              <div class="my-6">
+                <button
+                  class="text-white px-4 py-2 bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:bg-violet-100 rounded-lg"
                 >
                   Get Started
                 </button>
@@ -1073,6 +1169,7 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
           </div>
         </div>
       </div>
+
       <!-- contact section -->
     </div>
     <script
@@ -1081,3 +1178,4 @@ inactiveClasses: 'text-white  hover:bg-primary hover:text-white',
     ></script>
   </body>
 </html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/css/style.css --watch -->
