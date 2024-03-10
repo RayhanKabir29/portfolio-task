@@ -14,15 +14,19 @@
   <body class="font-sans bg-bg-color">
     <div class="container mx-auto">
       <!-- heading section -->
-      <div class="header flex px-20 pt-4">
-        <div class="self w-96">
+      <div class="header md:flex px-20 items-center md:h-24 bg-[#121414]">
+        <div
+          class="self w-96 md:border-r border-gray-600 sm:text-center sm:py-4"
+        >
           <p class="text-white font-bold text-3xl">
             Daryl
             <span class="text-[#F89222]">Smith</span>
           </p>
           <p class="text-[#C2C2C2] text-xl">UI/UX designer</p>
         </div>
-        <div class="home-menu right-width flex justify-between">
+        <div
+          class="home-menu right-width md:flex justify-between md:pl-10 sm:hidden"
+        >
           <div class="menu text-white flex">
             <span class="text-[#F89222] mr-2"
               ><svg
@@ -52,17 +56,17 @@
       </div>
       <!-- intro section -->
       <div class="hero-section sm:block md:flex">
-        <div class="hero-left flex">
-          <div class="sidebar text-white">
-            <ul>
-              <li>
+        <div class="hero-left flex sm:mb-4">
+          <div class="sidebar text-white relative">
+            <ul class="absolute ml-6">
+              <li class="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  class="w-8 h-8"
                 >
                   <path
                     stroke-linecap="round"
@@ -71,14 +75,14 @@
                   />
                 </svg>
               </li>
-              <li>
+              <li class="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  class="w-8 h-8"
                 >
                   <path
                     stroke-linecap="round"
@@ -87,14 +91,14 @@
                   />
                 </svg>
               </li>
-              <li>
+              <li class="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  class="w-8 h-8"
                 >
                   <path
                     stroke-linecap="round"
@@ -103,14 +107,14 @@
                   />
                 </svg>
               </li>
-              <li>
+              <li class="mb-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  class="w-8 h-8"
                 >
                   <path
                     stroke-linecap="round"
@@ -119,15 +123,96 @@
                   />
                 </svg>
               </li>
-              <li><img src="./img/contact.svg" alt="" /></li>
+              <li class="mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-8 h-8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z"
+                  />
+                </svg>
+              </li>
             </ul>
-            <img src="./img/Rectangle 1099.png" alt="" />
           </div>
-          <div class="hero-img w-96">
+          <img src="./img/Rectangle 1099.png" alt="" class="mt-12" />
+          <div class="hero-img w-96 bg-black">
             <img src="./img/Mask group.png" alt="" />
+
+            <div class="bg-black flex items-center justify-center gap-4 my-5">
+              <button class="bg-[#121414] p-2 text-[#C5C5C5] rounded-full">
+                <svg
+                  class="w-4 h-4 fill-current"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </button>
+              <button class="bg-[#121414] p-2 text-[#C5C5C5] rounded-full">
+                <svg
+                  class="w-4 h-4 fill-current"
+                  role="img"
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      d="M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <button class="bg-[#121414] p-2 text-[#C5C5C5] rounded-full">
+                <svg
+                  class="w-4 h-4 fill-current"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"
+                  />
+                </svg>
+              </button>
+              <button class="bg-[#121414] p-2 text-[#C5C5C5] rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  class="w-4 h-4 fill-current"
+                  viewBox="0 0 50 50"
+                >
+                  <path
+                    d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="bg-[#121414] p-2 text-[#C5C5C5] rounded-full">
+                <svg
+                  class="w-4 h-4 fill-current"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="hero-right max-w-xl">
+        <div class="max-w-xl px-10 mt-8">
           <p class="text-[#F89222]">INTRODUCTION</p>
           <p class="text-white font-bold text-5xl">
             I'm a Creative Developer & UI/UX Design Expert
@@ -143,10 +228,10 @@
             sites received a 2020 Webby for Best Navigation and Structure.
           </p>
           <button
-            class="text-white flex px-4 p-1 border rounded-full border-orange-400"
+            class="sm:mb-8 mt-8 text-white flex px-4 py-2 rounded-full bg-gradient-to-r from-[#F5BD4D] to-[#F89222]"
           >
             Downdolad CV
-            <span
+            <span class="ml-2"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -165,13 +250,14 @@
           </button>
         </div>
       </div>
+
       <!-- resume section -->
       <div
-        class="resume-heading text-white font-bold text-5xl max-w-xl mx-auto p-4 mt-4"
+        class="resume-heading text-white font-bold text-5xl max-w-xl mx-auto px-10 mt-4"
       >
         Resume
       </div>
-      <div class="resume-heading max-w-xl mx-auto p-4 mt-4">
+      <div class="resume-heading max-w-xl mx-auto px-10 mt-4">
         <div class="resume-section">
           <div class="edu text-white flex">
             <span class="text-orange-400 mr-3"
@@ -193,7 +279,7 @@
           </div>
         </div>
       </div>
-      <div class="edu-info max-w-xl mx-auto p-4 mt-2">
+      <div class="edu-info max-w-xl mx-auto px-10 mt-2">
         <div class="edu-card flex">
           <img src="./img/Group 8414.svg" alt="" />
           <div class="card-info">
@@ -248,7 +334,7 @@
       </div>
 
       <!-- Work Experience Section -->
-      <div class="resume-heading max-w-xl mx-auto p-4 mt-6">
+      <div class="resume-heading max-w-xl mx-auto px-10 mt-6">
         <div class="resume-section">
           <div class="edu text-white flex">
             <span class="text-orange-400 mr-3"
@@ -270,7 +356,7 @@
           </div>
         </div>
       </div>
-      <div class="edu-info max-w-xl mx-auto p-4 mt-2">
+      <div class="edu-info max-w-xl mx-auto px-10 mt-2">
         <div class="edu-card flex">
           <img src="./img/Group 8414.svg" alt="" />
           <div class="card-info">
@@ -322,7 +408,7 @@
         </div>
       </div>
       <!-- Skills Section -->
-      <div class="max-w-xl mx-auto p-4 mt-16">
+      <div class="max-w-xl mx-auto px-12 mt-16">
         <!-- To achieve the desired progress, you can update the 'stroke-dasharray' property. -->
 
         <h4 class="text-5xl text-white font-bold mb-6">Skills</h4>
@@ -518,7 +604,7 @@
         </div>
       </div>
       <!-- portfolio section -->
-      <div class="max-w-xl mx-auto p-4">
+      <div class="max-w-xl mx-auto px-10">
         <section
           x-data="
           {
@@ -530,7 +616,7 @@
           class="pt-10 pb-12"
         >
           <h2 class="mb-6 text-white font-bold text-5xl">Portfolio</h2>
-          <div class="-mx-4 flex flex-wrap justify-center">
+          <div class="-mx-4 flex flex-wrap justify-center mb-10">
             <div class="w-full px-4">
               <ul class="mb-6 flex justify-center bg-black rounded">
                 <li class="mb-1">
@@ -626,7 +712,7 @@
               :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
               class="w-full px-4 md:w-1/2"
             >
-              <div class="relative">
+              <div class="relative sm:mb-4">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -706,7 +792,7 @@
               :class="showCards == 'all' || showCards == 'design' ? 'block' : 'hidden' "
               class="w-full px-4 md:w-1/2"
             >
-              <div class="relative -mt-14 mb-4">
+              <div class="relative sm:mt-3 md:-mt-14 mb-4">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -741,7 +827,7 @@
                   </div>
                 </a>
               </div>
-              <div class="relative">
+              <div class="relative sm:mb-4">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -781,7 +867,7 @@
               :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
               class="w-full px-4 md:w-1/2"
             >
-              <div class="relative">
+              <div class="relative sm:mb-4">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -821,7 +907,7 @@
               :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
               class="w-full px-4 md:w-1/2"
             >
-              <div class="relative -mt-10">
+              <div class="relative sm:mt-3 md:-mt-10">
                 <a
                   class="absolute inset-0 z-10 bg-black text-center flex flex-col items-center justify-center opacity-0 hover:opacity-70 bg-opacity-70 duration-300"
                 >
@@ -861,7 +947,7 @@
         </section>
       </div>
       <!-- blog section -->
-      <div class="max-w-xl mx-auto p-4">
+      <div class="max-w-xl mx-auto px-10">
         <h2 class="text-white font-bold text-5xl mb-6">Blog</h2>
         <div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2">
           <article>
@@ -960,7 +1046,7 @@
               </div>
             </div>
           </article>
-          <article class="-mt-10">
+          <article class="sm:mt-3 md:-mt-10">
             <a href="#">
               <img
                 alt=""
@@ -1024,7 +1110,7 @@
               </div>
             </div>
           </article>
-          <article class="-mt-12">
+          <article class="sm:mt-3 md:-mt-12">
             <a href="#">
               <img
                 alt=""
@@ -1059,7 +1145,7 @@
         </div>
       </div>
       <!-- pricing section -->
-      <div class="max-w-xl mx-auto p-4">
+      <div class="max-w-xl mx-auto px-10">
         <h2 class="font-bold text-white text-5xl mt-8">Pricing</h2>
         <div class="grid md:grid-cols-2 gap-6 mt-6">
           <div class="bg-black max-w-sm">
@@ -1201,7 +1287,7 @@
       </div>
 
       <!-- contact section -->
-      <div class="max-w-xl mx-auto p-4">
+      <div class="max-w-xl mx-auto px-10 mt-6">
         <section class="mb-32 text-white">
           <h2 class="mb-8 text-5xl font-bold">Contact</h2>
           <form>
